@@ -113,7 +113,7 @@ class RandomWordsState extends State<RandomWords> {
     // return new Text(wordPair.asPascalCase);
     return new Scaffold(
       appBar: new AppBar(
-        title: new Text('Startup Name Generator'),
+        title: new Text('flutter'),
         actions: <Widget>[
           new IconButton(
             icon: new Icon(Icons.list),
@@ -124,4 +124,8 @@ class RandomWordsState extends State<RandomWords> {
       body: _buildSuggestions(),
     );
   }
+}
+
+printNumber(num aNumber) {
+  print('The number is $aNumber');
 }
